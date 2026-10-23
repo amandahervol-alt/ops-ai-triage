@@ -80,7 +80,6 @@ class OpsAIAgent:
         response = self.client.messages.create(
             model="claude-3-5-sonnet-20241022",
             max_tokens=2048,
-            temperature=0.1,
             system=system_prompt,
             tools=[tool_definition],
             messages=[
@@ -126,7 +125,6 @@ class OpsAIAgent:
         response = self.client.messages.create(
             model="claude-3-5-sonnet-20241022",
             max_tokens=2048,
-            temperature=0.1,
             system=system_prompt,
             tools=[tool_definition],
             messages=[
