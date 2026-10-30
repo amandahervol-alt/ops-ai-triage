@@ -1,7 +1,7 @@
 fastapi>=0.150.0
 uvicorn>=0.28.0
 pydantic>=2.14.1
-anthropic==2.1.0
+anthropic==2.3.0
 python-dotenv>=1.2.4
 pytest>=9.1.1
 httpx>=0.28.1
